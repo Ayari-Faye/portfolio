@@ -6,37 +6,94 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>portfolio</title>
   <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="07-Kadai2.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="global-nav">
-        <h1>Company Name</h1>
-        <nav class="menu">
-            <ul>
-                <li><a href="#sec1">Tahm Kench</a></li>
-                <li><a href="#sec2">Illustration</a></li>
-                <li><a href="#sec3">Music1</a></li>
-                <li><a href="#sec4">Artist</a></li>
-                <li><a href="#sec5">Music2</a></li>
-            </ul>
-        </nav>
+    <header class="menu">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#sec1">HOME</a></li>
+                    <li><a href="#sec2">ABOUT</a></li>
+                    <li><a href="#sec3">WORKS</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+
     <main>
-        <section id="sec1">
-            Tahm Kench
+        <section class="sec1 container" id="sec1">
+            <div class="top-text">
+                <h3>Ayari</h3>
+            </div>
         </section>
-        <section id="sec2">
-            Illustration
+
+        <section class="sec2 container" id="sec2">
+            <div class="about">
+                <div class="about-image">
+                    <img src="img/tamu.png" alt="">
+                </div>
+                <div class="about-text">
+                    <h4>ABOUT</h4>
+                    <h3>Ayari</h3>
+                    <p>2001年生まれ愛知県出身<br>Vtuber好きでイラストを描いています</p>
+                    <p>Maya、Photoshop、動画編集も行っています</p>
+                    <br>
+                    <p>制作日数<br>イラスト３日　画像１日 maya３週間</p>
+                </div>
+            </div>
         </section>
-        <section id="sec3">
-            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kvXBdWNGrxU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <section class="sec3 container" id="sec3">
+            <div class="works">
+                <h3>WORKS</h3>
+                <div class="item-container">
+                    <div class="item1">
+                        <h4>イラスト作成</h4>
+                        <div class="item-icon">
+                            <span class="icon">
+                                <img src="img/pict.jpg" alt="">
+                            </span>
+                        </div>
+                        <p>Vtuberのイラストを<br>描きました<br>
+                            <br>作成ソフト
+                            <br>CLIP STUDIO PAINT  
+                        </p>
+                    </div>
+                    <div class="item2">
+                        <h4>Maya制作</h4>
+                        <div class="item-icon">
+                            <span class="icon">
+                                <img src="img/maya.png" alt="">
+                            </span>
+                        </div>
+                        <p>想像した海の世界を<br>MAYAで作成しました<br>
+                            <br>作成ソフト
+                            <br>MAYA2019
+                        </p>
+                    </div>
+                    <div class="item3">
+                        <h4>動画画面作成</h4>
+                        <div class="item-icon">
+                            <span class="icon">
+                                <img src="img/douga.jpg" alt="">
+                            </span>
+                        </div>
+                        <p>youtube用の配信オーバーレイを
+                            <br>作成しました<br>
+                            <br>作成ソフト
+                            <br>Photoshop 
+                        </p>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section id="sec4">
-            Favorite Artist
-        </section>
-        <section id="sec5">
-            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/uNM3cwhwYxU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </section>
+
     </main>
+
+    <footer>
+        <p>©︎2021/Ayari</p>
+    </footer>
+
 </body>
 </html>
