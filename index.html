@@ -6,7 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>portfolio</title>
   <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/lightbox.min.css">
+  <script type="text/javascript" src="/js/lightbox.min.js"></script>
+  <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
 </head>
 <body>
     <header class="menu">
@@ -52,7 +55,7 @@
                         <h4>イラスト作成</h4>
                         <div class="item-icon">
                             <span class="icon">
-                                <img src="img/pict.jpg" alt="">
+                                <a href="img/pict.jpg" data-lightbox="image-1" data-title="作成イラスト"><img src="img/pict.jpg" alt=""></a>
                             </span>
                         </div>
                         <p>Vtuberのイラストを<br>描きました<br>
@@ -64,7 +67,7 @@
                         <h4>Maya制作</h4>
                         <div class="item-icon">
                             <span class="icon">
-                                <img src="img/maya.png" alt="">
+                                <a href="img/maya.png" data-lightbox="image-1" data-title="MAYA作品"><img src="img/maya.png" alt=""></a>
                             </span>
                         </div>
                         <p>想像した海の世界を<br>MAYAで作成しました<br>
@@ -76,7 +79,7 @@
                         <h4>動画画面作成</h4>
                         <div class="item-icon">
                             <span class="icon">
-                                <img src="img/douga.jpg" alt="">
+                                <a href="img/douga.jpg" data-lightbox="image-1" data-title="作成画像"><img src="img/douga.jpg" alt=""></a>
                             </span>
                         </div>
                         <p>youtube用の配信オーバーレイを
@@ -92,6 +95,8 @@
     </main>
 
     <footer>
+        <h3>CONTACT</h3>
+        <h4>x20002xx@aitech.ac.jp</h4>
         <p>©︎2021/Ayari</p>
     </footer>
 
